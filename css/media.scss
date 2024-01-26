@@ -1,0 +1,130 @@
+@media  screen and (max-width:1173px) {
+    .left-side img{
+        width: 77vw;
+        
+    }
+    .left-side{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .about-block{
+        width: 90%;
+        gap: 5rem;
+        flex-direction: column;
+    }
+    .right-side{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+
+@media screen and (max-width:1024px) {
+
+    .hero-banner{
+        height: fit-content;
+    }
+
+     .navbar .hamburger{
+        display: block;
+        
+    }
+
+    .right-side-nav{
+        position: fixed;
+        top: -115rem;
+        left: 0;
+        background-color: #111111;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 0;
+        z-index: -1;
+        transition: all .7s ease;
+
+        .navlist{
+            flex-direction: column;
+        }
+        
+    }
+
+    
+    
+    .hero-banner .hero-container .hero-heading {
+       width: fit-content;
+    
+    }
+    .hero-banner .hero-container .hero-body {
+       max-width: 30rem;
+    
+    }
+
+    .more-about-container{
+        flex-direction: column-reverse;
+        gap: 4rem;
+    }
+
+    #more-about-right-side img{
+        width: 70vw;
+    }
+
+    .portfolio-box{
+        margin: auto;
+        gap: 3rem;
+    }
+    .p-card{
+        width: 100%
+    }
+    .contact-box{
+        flex-direction: column-reverse;
+        height: fit-content;       
+        gap: 3rem;
+    }
+
+    .contact-us-section{
+        padding: 6rem 0;
+    }
+}
+
+@media screen and (max-width:826px) {
+    .hero-banner .hero-container .hero-heading {
+       width: fit-content;
+       font-size: 12vw;
+    
+    }
+    .hero-banner .hero-container .hero-body {
+      width: 70%;
+    
+    }
+    .t-title{
+        text-align: center;
+    }
+    .t-card{
+        width: 90%;
+    }
+    .this-img{
+    width: 90%;
+    }
+    .card{
+        width: 90%;
+    }
+    .t-text{
+        margin-inline: 3rem;
+        text-align: center;
+    }
+    .review{
+        text-align: center;
+        width: 90%;
+    }
+    .c-card{
+        width: 80%;
+    }
+    
+}
